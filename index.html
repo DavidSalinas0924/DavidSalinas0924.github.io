@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Final de curso</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="banner_principal">
+        <header>
+            <div class="logo"> 
+                <a href="#"> Francisco Stanley </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li> <a href="#inicio" onclick="seleccionar()" >Inicio</a></li>
+                    <li> <a href="#sobremi" onclick="seleccionar()" >Sobre mi</a></li>
+                    <li> <a href="#habilidades" onclick="seleccionar()" >Habilidades</a></li>
+                    <li> <a href="#curriculum" onclick="seleccionar()" >Curriculum</a></li>
+                    <li> <a href="#contacto" onclick="seleccionar()" >Contactame</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="titulo_prin">
+            <div class="img_perfil">
+                <img src="foto_perfil.png" alt="Se veria una imagen de Francisco a modo de presentación">
+            </div>
+            <h1>Francisco Stanley</h1>
+            <h2>Administrador de empresas</h2>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy administrador de empresas con visión de futuro y un historial probado de logro de objetivos durante seis años de carrera. Gestor de cambios ambicioso y motivado, dedicado a la mejora continua del negocio. Centrado en el aumento de los ingresos, y la optimización de recursos y procedimientos operativos. Dedicado a la maximización de beneficios a través de estrategias empresariales innovadoras y eficaces.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-01-1990
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2555 5454545
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Fran_contacto@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Idiomas</strong>
+                            Español: Nativo
+                            Ingles: Experto - C2
+                            Frances: Avanzado - C1 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>AJEDREZ</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>CINE</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Competencias esenciales</h3>
+                    <div class="habilidades">
+                        <li>Capacidad analítica</li>
+                    </div>
+                    <div class="habilidades">
+                       <li>Pensamiento crítico</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Saber trabajar bajo presión</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Visión de futuro</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Excelentes habilidades comunicativas</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Dotes de negociación</li>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Competencias adicionales</h3>
+                    <div class="habilidades">
+                        <li>Gran nivel de iniciativa</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Métodos para el establecimiento de objetivos</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Planificación estratégica y motivación</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Conocimientos en micro y macroeconomía</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Buen trato con el resto de departamentos</li>
+                    </div>
+                    <div class="habilidades">
+                        <li>Conocimiento de diferentes métodos de gestión de empresas</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Máster Universitario en Dirección Administrativa y Financiera</h4>
+                        <span class="casa">Universidad de Barcelona</span>
+                        <span class="fecha">2009 - 2011</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Licenciatura en Administración y Dirección de Empresas (ADE)</h4>
+                        <span class="casa">Universidad de Barcelona</span>
+                        <span class="fecha">2005 - 2009</span>
+    
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>
+                            Administrador de empresas
+                        </h4>
+                        <span class="casa">EmprendeCAT,Barcelona</span>
+                        <span class="fecha">02/2016 – actualidad</span>
+                        <p> <li>Gestión de la cartera de clientes</li>
+                            <li>Análisis de factores de riesgo para empresas clientes</li>
+                            <li>Elaboración de informes fiscales</li>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administrador de empresas</h4>
+                        <span class="casa">FINANS Barcelona</span>
+                        <span class="fecha">05/2011 – 02/2016</span>
+                        <p><li>Labores de orientación en materia de contabilidad</li>
+                            <li>Asesoramiento tributario y fiscal</li>
+                            <li>Elaboración de informes y liquidaciones de cuentas anuales</li></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gestor administrativo</h4>
+                        <span class="casa">Banco Santander, Barcelona</span>
+                        <span class="fecha">10/2010 – 03/2011</span>
+                        <p>
+                            <li>Supervisión de protocolos de operativas específicas y colectivos de riesgo.</li>
+                            <li>Análisis de riesgo de empresas clientes.</li>
+                            <li>Elaboración de informes sancionadores.</li>
+                            <li>Responsable de las comunicaciones mensuales con la directiva.</li></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre" required>
+                    <input type="text" placeholder="Número telefónico" required>
+                    <input type="text" placeholder="Dirección de correo" required>
+                    <input type="text" placeholder="Tema" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>           
+                </div>
+                <div class="col">
+                    <img src="ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                C. de la Llacuna, 162, 164, 08018 Barcelona, España
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2555-5454545 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: Fran_contacto@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>   
+    
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script>src="scrips.js"</script>
+</body>
+</html>
